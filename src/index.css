@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@import url(./fonts/css/icons.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+.fix:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.responsive {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Lato"; }
+
+.App {
+  text-align: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.col {
+  background-color: orange;
+  color: teal;
+  margin-bottom: 3px;
+  padding: 10px;
+  border-radius: 5px; }
+  .col h1 {
+    color: red; }
+  .col span {
+    color: green; }
+  .col div {
+    width: 300px;
+    height: auto;
+    background-color: teal;
+    color: white; }
+
+.todo {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px; }
+  .todo .table tr,
+  .todo .table td,
+  .todo .table th {
+    border: 1px solid teal;
+    padding: 10px;
+    color: coral; }
+
+.loading::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 16px;
+  top: 50%;
+  left: 50%;
+  color: teal;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left: -50px;
+  font-family: "icons";
+  text-align: center;
+  line-height: 100px;
+  font-size: 40px;
+  animation: rotate 1s infinite linear; }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
